@@ -154,16 +154,20 @@ export default function HomePage() {
                   </div>
                   <div className="p-6">
                     <h3 className="font-bold text-lg mb-2 line-clamp-1">{recipe.title}</h3>
-                    <div className="flex items-center gap-2 mb-3">
-                      <img
-                        src={recipe.twitterAvatar}
-                        alt={recipe.twitterUsername}
-                        className="w-6 h-6 rounded-full"
-                      />
-                      <span className="text-sm text-gray-600 dark:text-gray-400">
-                        @{recipe.twitterUsername}
-                      </span>
-                    </div>
+                    <Link 
+                   href={`/profile/${recipe.twitterUsername}`}
+                  onClick={(e) => e.stopPropagation()}
+                  className="flex items-center gap-2 mb-3 hover:opacity-80 transition-opacity"
+                   >
+                   <img
+                   src={recipe.twitterAvatar}
+                   alt={recipe.twitterUsername}
+                   className="w-6 h-6 rounded-full"
+                   />
+                   <span className="text-sm text-gray-600 dark:text-gray-400 hover:text-purple-600 transition-colors">
+                   @{recipe.twitterUsername}
+                  </span>
+                   </Link>
                     <div className="flex items-center justify-between text-sm text-gray-500">
                       <span className="flex items-center gap-1">
                         <Trophy className="w-4 h-4 text-yellow-500" />
