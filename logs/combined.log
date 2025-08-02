@@ -1,0 +1,32 @@
+2025-08-02T01:46:19: 
+2025-08-02T01:46:19: > succinct-recipes@0.1.0 start
+2025-08-02T01:46:19: > next start
+2025-08-02T01:46:19: 
+2025-08-02T01:46:19:    ▲ Next.js 15.4.5
+2025-08-02T01:46:19:    - Local:        http://localhost:3000
+2025-08-02T01:46:19:    - Network:      http://31.97.115.45:3000
+2025-08-02T01:46:19: 
+2025-08-02T01:46:19:  ✓ Starting...
+2025-08-02T01:46:19:  ✓ Ready in 261ms
+2025-08-02T01:46:32: Auth check - Token exists: true
+2025-08-02T01:46:49: Auth check - Token exists: true
+2025-08-02T01:50:19: Auth check - Token exists: true
+2025-08-02T01:50:32: Auth check - Token exists: true
+2025-08-02T02:02:59: Auth check - Token exists: true
+2025-08-02T02:03:04: Auth check - Token exists: true
+2025-08-02T02:03:13: Auth check - Token exists: false
+2025-08-02T02:03:38: 
+2025-08-02T02:03:38: > succinct-recipes@0.1.0 start
+2025-08-02T02:03:38: > next start
+2025-08-02T02:03:38: 
+2025-08-02T02:03:38:    ▲ Next.js 15.4.5
+2025-08-02T02:03:38:    - Local:        http://localhost:3000
+2025-08-02T02:03:38:    - Network:      http://31.97.115.45:3000
+2025-08-02T02:03:38: 
+2025-08-02T02:03:38:  ✓ Starting...
+2025-08-02T02:03:38:  ✓ Ready in 253ms
+2025-08-02T02:05:30: Auth check - Token exists: true
+2025-08-02T02:06:58: Auth check - Token exists: true
+2025-08-02T02:07:14: Auth check - Token exists: true
+2025-08-02T13:01:35: Auth check - Token exists: false
+2025-08-02T13:19:01: Auth check - Token exists: false
