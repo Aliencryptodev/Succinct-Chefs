@@ -63,6 +63,7 @@ export default function CreateRecipePage() {
       const res = await fetch('/api/upload', {
         method: 'POST',
         body: formData
+        credentials: 'include'
       })
       
       if (!res.ok) throw new Error('Upload failed')
@@ -122,6 +123,7 @@ export default function CreateRecipePage() {
       const res = await fetch('/api/recipes', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
         body: JSON.stringify({
           ...formData,
           image: imageUrl,
